@@ -1481,7 +1481,7 @@ RoHS : Compliant,</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INA199A2DCKT" urn="urn:adsk.eagle:component:19904121/2" prefix="U" library_version="6">
+<deviceset name="INA199A2DCKT" urn="urn:adsk.eagle:component:19904121/3" prefix="U" library_version="8">
 <description>CURRENT SHUNT MONITOR</description>
 <gates>
 <gate name="A" symbol="INA199A2DCKT" x="0" y="0"/>
@@ -1503,8 +1503,8 @@ RoHS : Compliant,</description>
 <technology name="">
 <attribute name="DESCRIPTION" value="26V, bi-directional current sense amplifier 6-SC70 -40 to 125" constant="no"/>
 <attribute name="MFN" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="INA199A2DCKT" constant="no"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ina199a2dckt-texas+instruments-18607270?r=sp" constant="no"/>
+<attribute name="MPN" value="INA199B2DCKT" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/ina199b2dckt-texas+instruments-24258237?r=sp" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2553,7 +2553,9 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P2" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1546111-2" device="" package3d_urn="urn:adsk.eagle:package:19666461/3"/>
 <part name="P3" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1546111-2" device="" package3d_urn="urn:adsk.eagle:package:19666461/3"/>
-<part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199A2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2"/>
+<part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199A2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2" value="INA199B2DCKT">
+<attribute name="MPN" value="INA199B2DCKT"/>
+</part>
 <part name="C10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="10uF"/>
 <part name="C11" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="1uF"/>
 <part name="C12" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="1uF"/>
@@ -2597,7 +2599,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330K"/>
 <part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330k"/>
 <part name="R10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330k"/>
-<part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199A2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2"/>
+<part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199A2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2" value="INA199B2DCKT"/>
 <part name="C16" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="10uF"/>
 <part name="C17" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="1uF"/>
 <part name="C18" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="1uF"/>
@@ -5009,8 +5011,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H2AR3</text>
-<text x="179.2478" y="11.2014" size="1.9304" layer="101" font="vector">RGB LED</text>
-<text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H2AR3_Frontend</text>
+<text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H2AR3_backend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="18.288" x2="168.91" y2="22.86" width="0.1524" layer="205"/>
@@ -5033,6 +5034,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="30.48" y="198.12" size="1.778" layer="150">VDD=3.3 Volts</text>
 <text x="183.8778" y="4.9414" size="1.9304" layer="101" font="vector">Amir_Tabbakh</text>
+<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">Current and Voltage Sense Module</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="224.79" y="113.03" smashed="yes">
@@ -13916,7 +13918,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H2AR3</text>
-<text x="179.2478" y="11.2014" size="1.9304" layer="101" font="vector">RGB LED</text>
+<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">Current and Voltage Sense Module</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H2AR3_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
@@ -13939,7 +13941,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="25.4" y="198.12" size="1.778" layer="150">VDD=3.3 Volts</text>
-<text x="181.3378" y="4.9414" size="1.9304" layer="101" font="vector">Amir_Tabbakh</text>
+<text x="182.6078" y="4.9414" size="1.9304" layer="101" font="vector">Amir_Tabbakh</text>
 <text x="121.92" y="59.69" size="1.778" layer="95">U2_filter</text>
 <text x="93.98" y="59.69" size="1.778" layer="95">U3_filter</text>
 <text x="74.93" y="59.69" size="1.778" layer="95">U4_filter</text>
