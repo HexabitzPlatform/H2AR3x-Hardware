@@ -2596,9 +2596,9 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="R7" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3" value="1k"/>
 <part name="SUPPLY18" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY19" library="supply2" deviceset="AGND" device="" value="VSSA"/>
-<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330K"/>
-<part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330k"/>
-<part name="R10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330k"/>
+<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M"/>
+<part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M"/>
+<part name="R10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M"/>
 <part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199A2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2" value="INA199B2DCKT"/>
 <part name="C16" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="10uF"/>
 <part name="C17" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="1uF"/>
@@ -13945,6 +13945,8 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="121.92" y="59.69" size="1.778" layer="95">U2_filter</text>
 <text x="93.98" y="59.69" size="1.778" layer="95">U3_filter</text>
 <text x="74.93" y="59.69" size="1.778" layer="95">U4_filter</text>
+<text x="30.48" y="66.04" size="1.778" layer="150">CT_connector</text>
+<text x="30.48" y="40.64" size="1.778" layer="150">Voltage_connector</text>
 </plain>
 <instances>
 <instance part="P2" gate="G$1" x="34.29" y="29.21" smashed="yes">
