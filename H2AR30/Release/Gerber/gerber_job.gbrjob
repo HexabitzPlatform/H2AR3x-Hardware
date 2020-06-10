@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-06-10T21:40:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "H2AR30"
+        },
+        "Owner": "Amir Tabbakh <amir.tabbakh.m.e@gmail.com>",
+        "Size": {
+            "X": 34.64,
+            "Y": 30
+        }
+    }
+}
