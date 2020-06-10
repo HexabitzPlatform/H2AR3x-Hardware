@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -892,7 +892,7 @@ RoHS : Compliant,</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="PAD1" urn="urn:adsk.eagle:package:19666465/3" type="box" library_version="7">
+<package3d name="PAD1" urn="urn:adsk.eagle:package:19666465/4" type="empty" library_version="9">
 <packageinstances>
 <packageinstance name="PAD1"/>
 </packageinstances>
@@ -925,7 +925,7 @@ RoHS : Compliant,</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD1" urn="urn:adsk.eagle:component:20049898/3" prefix="P" library_version="7">
+<deviceset name="PAD1" urn="urn:adsk.eagle:component:20049898/4" prefix="P" library_version="9">
 <gates>
 <gate name="G$1" symbol="PAD1" x="0" y="0"/>
 </gates>
@@ -935,7 +935,7 @@ RoHS : Compliant,</description>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19666465/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666465/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1079,7 +1079,7 @@ RoHS : Compliant,</description>
 <smd name="1" x="-1.1" y="0" dx="0.8" dy="0.5" layer="1"/>
 <smd name="2" x="1.1" y="0" dx="0.8" dy="0.5" layer="1"/>
 </package>
-<package name="R1206" urn="urn:adsk.eagle:footprint:23047/1" library_version="10">
+<package name="R1206" urn="urn:adsk.eagle:footprint:20937484/1" library_version="16">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
@@ -1089,7 +1089,7 @@ RoHS : Compliant,</description>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="1.016" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
@@ -1107,7 +1107,7 @@ RoHS : Compliant,</description>
 <packageinstance name="C-0805-POL"/>
 </packageinstances>
 </package3d>
-<package3d name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:package:19666466/1" type="box" library_version="3">
+<package3d name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:package:19666466/2" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="FB-TDK_MMZ1608Y300B"/>
 </packageinstances>
@@ -1135,8 +1135,8 @@ RoHS : Compliant,</description>
 <packageinstance name="BOURNS_CDSOD323-T03SC_0"/>
 </packageinstances>
 </package3d>
-<package3d name="R1206" urn="urn:adsk.eagle:package:23540/2" type="model" library_version="10">
-<description>RESISTOR</description>
+<package3d name="R1206" urn="urn:adsk.eagle:package:20937486/1" type="model" library_version="16">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R1206"/>
 </packageinstances>
@@ -1333,7 +1333,7 @@ RoHS : Compliant,</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:component:19857723/1" prefix="FB" uservalue="yes" library_version="3">
+<deviceset name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:component:19857723/2" prefix="FB" uservalue="yes" library_version="16">
 <description>Ferrite Beads Multi-Layer 30Ohm 25% 100MHz 1.5A 50mOhm DCR 0603</description>
 <gates>
 <gate name="G$1" symbol="FB-TDK_MMZ1608Y300B" x="0" y="0"/>
@@ -1345,7 +1345,7 @@ RoHS : Compliant,</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19666466/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666466/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1461,7 +1461,7 @@ RoHS : Compliant,</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R_1206" urn="urn:adsk.eagle:component:20530655/2" prefix="R" uservalue="yes" library_version="13">
+<deviceset name="R_1206" urn="urn:adsk.eagle:component:20530655/3" prefix="R" uservalue="yes" library_version="16">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US-1" x="0" y="0"/>
@@ -1473,7 +1473,7 @@ RoHS : Compliant,</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23540/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20937486/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1832,7 +1832,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE_RATING" value="16V"/>
 </part>
-<part name="FB1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="FB-TDK_MMZ1608Y300B" device="" package3d_urn="urn:adsk.eagle:package:19666466/1" value="FB-TDK_MMZ1608Y300B">
+<part name="FB1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="FB-TDK_MMZ1608Y300B" device="" package3d_urn="urn:adsk.eagle:package:19666466/2" value="FB-TDK_MMZ1608Y300B">
 <attribute name="MFN" value="TDK "/>
 <attribute name="MPN" value="MMZ1608Y300B"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/mmz1608y300b-tdk-368280?r=sp&amp;s=cd9_2ZEqQ9q9UNBuQgHAiA"/>
@@ -1939,10 +1939,10 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="SUPPLY12" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY4" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="SUPPLY11" library="supply2" deviceset="AGND" device="" value="VSSA"/>
-<part name="C" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/3" value="PAD1"/>
-<part name="D" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/3" value="PAD1"/>
-<part name="B" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/3" value="PAD1"/>
-<part name="R" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/3" value="PAD1"/>
+<part name="C" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/4" value="PAD1"/>
+<part name="D" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/4" value="PAD1"/>
+<part name="B" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/4" value="PAD1"/>
+<part name="R" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="PAD1" device="" package3d_urn="urn:adsk.eagle:package:19666465/4" value="PAD1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P2" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1546111-2" device="" package3d_urn="urn:adsk.eagle:package:19666461/3"/>
@@ -2021,7 +2021,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="TOLERANCE" value="5%"/>
 </part>
 <part name="SUPPLY19" library="supply2" deviceset="AGND" device="" value="VSSA"/>
-<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M0">
+<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:20937486/1" value="1M0">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -2032,7 +2032,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="MPN" value="RT1206BRD071ML"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rt1206brd071ml-yageo-1262221?r=sp"/>
 </part>
-<part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M0">
+<part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:20937486/1" value="1M0">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -2043,7 +2043,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="MPN" value="RT1206BRD071ML"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rt1206brd071ml-yageo-1262221?r=sp"/>
 </part>
-<part name="R10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M0">
+<part name="R10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:20937486/1" value="1M0">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -2129,7 +2129,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="VOLTAGE_RATING" value="10V"/>
 </part>
 <part name="D3" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="BOURNS_CDSOD323-T03SC" device="BOURNS_CDSOD323-T03SC_0_0" package3d_urn="urn:adsk.eagle:package:20526306/2"/>
-<part name="R14" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="150R">
+<part name="R14" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:20937486/1" value="150R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
