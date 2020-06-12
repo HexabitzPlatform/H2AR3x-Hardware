@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -466,7 +466,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <text x="-3.25" y="-6.75" size="1.016" layer="25">&gt;NAME</text>
 <text x="-3.25" y="-8.25" size="1.016" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT65P210X110-6N" urn="urn:adsk.eagle:footprint:19904112/1" library_version="6">
+<package name="SOT65P210X110-6N" urn="urn:adsk.eagle:footprint:19904112/3" library_version="17">
 <smd name="1" x="-1.0414" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
 <smd name="2" x="-1.0414" y="0" dx="1.1684" dy="0.3556" layer="1"/>
 <smd name="3" x="-1.0414" y="-0.6604" dx="1.1684" dy="0.3556" layer="1"/>
@@ -513,8 +513,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <wire x1="1.1938" y1="0.508" x2="1.1938" y2="0.7874" width="0" layer="51"/>
 <wire x1="1.1938" y1="0.7874" x2="0.7112" y2="0.7874" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.0668" x2="-0.3048" y2="1.0668" width="0" layer="51" curve="-180"/>
-<text x="-1.8796" y="0.8636" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.8796" y="0.8636" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-2.0796" y="0.5636" size="1.9304" layer="21" ratio="10" rot="SR0">.</text>
 <text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
@@ -545,7 +544,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <packageinstance name="STM32F091CBU6"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT65P210X110-6N" urn="urn:adsk.eagle:package:19904117/2" type="model" library_version="6">
+<package3d name="SOT65P210X110-6N" urn="urn:adsk.eagle:package:19904117/4" type="model" library_version="17">
 <packageinstances>
 <packageinstance name="SOT65P210X110-6N"/>
 </packageinstances>
@@ -782,7 +781,7 @@ RoHS : Compliant,</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INA199B2DCKT" urn="urn:adsk.eagle:component:19904121/4" prefix="U" library_version="14">
+<deviceset name="INA199B2DCKT" urn="urn:adsk.eagle:component:19904121/6" prefix="U" library_version="17">
 <description>CURRENT SHUNT MONITOR</description>
 <gates>
 <gate name="A" symbol="INA199A2DCKT" x="0" y="0"/>
@@ -798,7 +797,7 @@ RoHS : Compliant,</description>
 <connect gate="A" pin="V+" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19904117/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19904117/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -811,7 +810,7 @@ RoHS : Compliant,</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INA199B1DCKT" urn="urn:adsk.eagle:component:20627997/1" prefix="U" library_version="10">
+<deviceset name="INA199B1DCKT" urn="urn:adsk.eagle:component:20627997/3" prefix="U" library_version="17">
 <description>CURRENT SHUNT MONITOR</description>
 <gates>
 <gate name="A" symbol="INA199A2DCKT" x="0" y="0"/>
@@ -827,7 +826,7 @@ RoHS : Compliant,</description>
 <connect gate="A" pin="V+" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19904117/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19904117/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2054,7 +2053,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="MPN" value="RT1206BRD071ML"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rt1206brd071ml-yageo-1262221?r=sp"/>
 </part>
-<part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199B1DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2" value="INA199B1DCKT"/>
+<part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199B1DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/4" value="INA199B1DCKT"/>
 <part name="C16" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/2" value="10uF">
 <attribute name="CAPACITANCE" value="10uF"/>
 <attribute name="MFN" value="KEMET"/>
@@ -2191,7 +2190,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P1" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" deviceset="HEXABIT_?_NO_P1_P5_P6_P7_P12" device="" package3d_urn="urn:adsk.eagle:package:20748456/3"/>
-<part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199B2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/2"/>
+<part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="INA199B2DCKT" device="" package3d_urn="urn:adsk.eagle:package:19904117/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -4581,9 +4580,9 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="NAME" x="99.568" y="153.416" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="99.568" y="145.415" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="X1" gate="G$1" x="198.12" y="135.89" smashed="yes">
-<attribute name="NAME" x="204.47" y="138.684" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="217.17" y="132.08" size="1.778" layer="96" rot="R180"/>
+<instance part="X1" gate="G$1" x="198.12" y="138.43" smashed="yes">
+<attribute name="NAME" x="204.47" y="141.224" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="217.17" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="96.52" y="144.78" smashed="yes">
 <attribute name="VALUE" x="93.98" y="142.24" size="1.778" layer="96"/>
@@ -4700,8 +4699,8 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <instance part="SUPPLY2" gate="GND" x="45.72" y="101.6" smashed="yes">
 <attribute name="VALUE" x="43.815" y="98.425" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="203.2" y="142.24" smashed="yes" rot="R90">
-<attribute name="VALUE" x="209.55" y="142.24" size="1.778" layer="96" rot="R180"/>
+<instance part="GND9" gate="1" x="203.2" y="144.78" smashed="yes" rot="R90">
+<attribute name="VALUE" x="209.55" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND10" gate="1" x="121.92" y="132.08" smashed="yes" rot="R270">
 <attribute name="VALUE" x="115.57" y="132.08" size="1.778" layer="96"/>
@@ -4804,7 +4803,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="191.77" y1="114.3" x2="191.77" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="191.77" y1="116.84" x2="191.77" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="130.81" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="133.35" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
 <junction x="191.77" y="119.38"/>
 <pinref part="U1" gate="G$1" pin="VSS_0"/>
 <junction x="191.77" y="116.84"/>
@@ -4871,16 +4870,6 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="P1" gate="G$1" pin="GND5"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="200.66" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB14"/>
-<pinref part="U1" gate="G$1" pin="PB15"/>
-<wire x1="195.58" y1="142.24" x2="191.77" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="191.77" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="139.7" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
-<junction x="195.58" y="142.24"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PC14-OSC32_IN"/>
 <wire x1="135.89" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -4896,19 +4885,16 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="191.77" y1="172.72" x2="209.55" y2="172.72" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="USART5_TX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB3"/>
-<wire x1="191.77" y1="170.18" x2="205.74" y2="170.18" width="0.1524" layer="91"/>
-<label x="191.77" y="170.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USART5_RX" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB4"/>
-<wire x1="191.77" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<label x="191.77" y="167.64" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB14"/>
+<pinref part="U1" gate="G$1" pin="PB15"/>
+<wire x1="193.04" y1="142.24" x2="191.77" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="191.77" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="139.7" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<junction x="193.04" y="142.24"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="193.04" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART3_TX" class="0">
@@ -4951,19 +4937,20 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF0-OSC_IN"/>
-<wire x1="191.77" y1="134.62" x2="191.77" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="191.77" y1="135.89" x2="195.58" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="138.43" x2="195.58" y2="138.43" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PF0-OSC_IN"/>
+<wire x1="191.77" y1="134.62" x2="194.31" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="134.62" x2="194.31" y2="138.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PF1-OSC_OUT"/>
 <wire x1="191.77" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="132.08" x2="203.2" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="132.08" x2="203.2" y2="138.43" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="135.89" x2="200.66" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="138.43" x2="200.66" y2="138.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1" class="0">
@@ -4988,7 +4975,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="R" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="USART2_TX" class="0">
+<net name="USART2*_TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA2"/>
 <wire x1="135.89" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
@@ -5012,7 +4999,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="P1" gate="G$1" pin="SU3"/>
 </segment>
 </net>
-<net name="USART2_RX" class="0">
+<net name="USART2*_RX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA3"/>
 <wire x1="135.89" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
@@ -13759,6 +13746,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <pinref part="D2" gate="G$0" pin="2"/>
 <wire x1="40.64" y1="181.61" x2="30.48" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="177.8" x2="40.64" y2="181.61" width="0.1524" layer="91"/>
+<junction x="40.64" y="181.61"/>
 </segment>
 <segment>
 <pinref part="P3" gate="G$1" pin="1"/>
