@@ -1,2 +1,2 @@
 # H2AR3x-Hardware
-Hexabitz Current and Voltage Sense Module Hardware Design
+Hexabitz AC Current and Voltage Sensor Module Hardware Design
